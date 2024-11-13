@@ -1,0 +1,1 @@
+//make square and cube calculator using useMemo
