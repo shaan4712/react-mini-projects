@@ -22,6 +22,7 @@ const Calculator1 = () => {
 
   return (
     <div className='cal'>
+        <h2>Calculator using useMemo</h2>
         <label>Enter Number: </label>
         <input type='number' onChange={(e) => handleStatusChange(e)}/>
         <div>
