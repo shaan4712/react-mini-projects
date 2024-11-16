@@ -27,7 +27,7 @@ const CounterApi = () => {
                     headers: { 'Content-type': 'application/json' },
                     body: JSON.stringify({ 'counter1' : newVal})
                 });
-            if (!response.ok) throw new Error("HTTP Error")
+            if (!response.ok) throw new Error("HTTP Error");
             setCounter(newVal);
         } catch(error){
             console.log(error);
