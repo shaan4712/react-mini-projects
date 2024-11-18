@@ -9,6 +9,7 @@ const Pagination = () => {
   const lastIndex = currentPage * itemsPerPage;
   const firstIndex = lastIndex - itemsPerPage;
 
+  //api se karo to bhi same hi baat hai - thats also array of obj
   //Array of objects
   const dummyData = Array.from({ length: 100 }, (_, index) => ({
     id: index + 1,

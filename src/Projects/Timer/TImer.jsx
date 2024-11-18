@@ -1,6 +1,7 @@
 import React from 'react'
+import './styles.css'
 
-const TImer = () => {
+const Timer = () => {
   return (
 
     <div>
@@ -9,4 +10,4 @@ const TImer = () => {
   )
 }
 
-export default TImer
+export default Timer

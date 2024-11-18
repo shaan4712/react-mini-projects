@@ -4,6 +4,7 @@ import CounterApi from './Projects/CounterApp/CounterApi'
 import Calculator1 from './Projects/Calculator1/Calculator1'
 import Todo from './Projects/To-do/todo'
 import Pagination from './Projects/Pagination/Pagination'
+import Clock from './Projects/Clock/Clock'
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
       <Todo />
       <br></br>
       <Pagination />
+      <br></br>
+      <Clock />
     </div>
   )
 }
