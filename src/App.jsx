@@ -5,6 +5,7 @@ import Calculator1 from './Projects/Calculator1/Calculator1'
 import Todo from './Projects/To-do/todo'
 import Pagination from './Projects/Pagination/Pagination'
 import Clock from './Projects/Clock/Clock'
+import DarkModeApp from './DarkMode'
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
       <Pagination />
       <br></br>
       <Clock />
+      <br></br>
+      <DarkModeApp />
     </div>
   )
 }
